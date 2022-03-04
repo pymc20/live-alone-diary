@@ -2,5 +2,21 @@
   "presets": [
     "next/babel",
     "@babel/preset-flow"
-  ]
+  ],
+  "plugins": [
+    [
+      "babel-plugin-styled-components",
+      {
+        "fileName": true,
+        "displayName": false,
+        "pure": true
+      }
+    ],
+    [
+      "@babel/plugin-proposal-class-properties"
+    ]
+  ],
+  "assumptions": {
+    "setPublicClassFields": false
+  }
 }
