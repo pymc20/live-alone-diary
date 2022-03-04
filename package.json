@@ -1,0 +1,17 @@
+{
+  "name": "live-alone-diary",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "version": "1.0.0",
+  "author": "bym <pymc20@naver.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "yarn workspace core dev",
+    "build": "yarn workspace core build",
+    "start": "yarn workspace core start"
+  }
+}
