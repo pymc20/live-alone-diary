@@ -13,5 +13,17 @@
     "dev": "yarn workspace core dev",
     "build": "yarn workspace core build",
     "start": "yarn workspace core start"
+  },
+  "dependencies": {
+    "next": "12.1.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.5",
+    "@babel/preset-flow": "^7.16.7",
+    "babel-plugin-styled-components": "^2.0.3",
+    "@babel/plugin-proposal-class-properties": "^7.16.7",
+    "flow-bin": "^0.172.0"
   }
 }
