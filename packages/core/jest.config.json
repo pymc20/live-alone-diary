@@ -1,4 +1,7 @@
 {
   "name": "core",
-  "testEnvironment": "jsdom"
+  "testEnvironment": "jsdom",
+  "moduleNameMapper": {
+    "@presentational/(.*)": "<rootDir>/components/presentational/$1"
+  }
 }
