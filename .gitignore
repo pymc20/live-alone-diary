@@ -3,6 +3,7 @@
 .idea
 __snapshots__
 .next
+server.js
 
 # dependencies
 node_modules

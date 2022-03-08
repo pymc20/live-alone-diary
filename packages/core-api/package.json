@@ -6,16 +6,18 @@
     "nohoist": [
       "express",
       "sequelize",
-      "sqlite3"
+      "sqlite3",
+      "cookie-parser"
     ]
   },
   "scripts": {
-    "start": "node src/index.js"
+    "start": "webpack && node server.js"
   },
   "license": "MIT",
   "dependencies": {
-    "sequelize": "^6.17.0",
+    "cookie-parser": "^1.4.6",
     "express": "^4.17.3",
+    "sequelize": "^6.17.0",
     "sqlite3": "^5.0.2"
   }
 }
