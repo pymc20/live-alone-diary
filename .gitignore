@@ -3,6 +3,7 @@
 .idea
 __snapshots__
 .next
+dist
 
 # dependencies
 node_modules
