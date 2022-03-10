@@ -5,6 +5,10 @@ import React from 'react';
 export default function Home() {
   return (
     <>
+      <style>
+        @import
+        url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700&display=swap');
+      </style>
       <Head>
         <title>자취일기</title>
         <meta name="description" content="community site" />
